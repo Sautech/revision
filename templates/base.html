@@ -103,6 +103,19 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 	<script src="main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBtQ3RAYAwHmXlLf5SUkXUOPfKUt-0jgOs",
+    authDomain: "iothome-6bab7.firebaseapp.com",
+    databaseURL: "https://iothome-6bab7.firebaseio.com",
+    projectId: "iothome-6bab7",
+    storageBucket: "iothome-6bab7.appspot.com",
+    messagingSenderId: "191054227706"
+  };
+  firebase.initializeApp(config);
+</script>
 	{% block js %}
 
 	{% endblock js %}
